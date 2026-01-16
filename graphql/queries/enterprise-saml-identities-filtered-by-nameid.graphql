@@ -8,10 +8,10 @@
 
 
 query EnterpriseIdentitiesBySAMLNameID {
- enterprise(slug: "<ENTERPRISE_SLUG>") {
+ enterprise(slug: "glory-global-ltd") {
     ownerInfo {
       samlIdentityProvider {
-        externalIdentities(userName:"<SAML Name ID>", first: 25) {
+        externalIdentities(userName:"almeidaf@pt.glory-global.com", first: 25) {
           totalCount
           edges {
             node {
